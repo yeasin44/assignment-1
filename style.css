@@ -1,0 +1,237 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+/*     Banner section    */
+.banner {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.5), rgba(4, 9, 30, 0.5)),
+    url(./images/donation7.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+}
+.banner h1 {
+  color: white;
+  font-size: 40px;
+}
+.banner p {
+  color: white;
+  padding: 20px;
+  padding: 30px;
+}
+.banner a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 700;
+  background-color: tomato;
+  border-radius: 5px;
+}
+.banner .text-box {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*      Donate section     */
+.donate {
+  text-align: center;
+  margin-top: 60px;
+}
+.text-box2 h2 {
+  font-size: 30px;
+}
+.text-box2 p {
+  color: gray;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 100px;
+  width: 60%;
+  align-items: center;
+  margin-left: 270px;
+  text-align: center;
+}
+.column {
+  width: 140px;
+  height: 125px;
+  padding: 10px 10px;
+  background: #fafafa;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 100px;
+}
+.column2 {
+  width: 135px;
+  height: 123px;
+  padding: 10px 10px;
+  background: #ffeeee;
+  color: white;
+  box-sizing: border-box;
+  border: 2px solid #ff5959;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 100px;
+}
+.column h2 {
+  color: #707070;
+  margin-top: 38px;
+}
+.column2 h2 {
+  color: #ff5959;
+  margin-top: 38px;
+}
+
+.other-amount {
+  text-align: center;
+  color: gray;
+  margin-top: 30px;
+}
+hr {
+  width: 60%;
+  margin-bottom: 30px;
+}
+
+.donate-btn {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 700;
+  background-color: tomato;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+/*       Our donate plan      */
+.our-donate-plan {
+  text-align: center;
+  margin-top: 100px;
+}
+.text-box3 h2 {
+  font-size: 40px;
+}
+.text-box3 p {
+  color: #707070;
+}
+.flex-box {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 30px;
+}
+.box-size {
+  width: 25%;
+  margin: 10px 0px;
+  background: rgba(79, 157, 166, 0.1);
+  padding: 20px 20px;
+  text-align: left;
+  margin-top: 80px;
+  border-radius: 5px;
+  margin-left: 100px;
+  align-items: center;
+}
+.left-box p {
+  color: #707070;
+}
+.middle-box {
+  background: rgba(255, 89, 89, 0.1);
+}
+.middle-box p {
+  color: #707070;
+}
+.right-box {
+  background: #fff4d6;
+}
+.right-box p {
+  color: #707070;
+}
+
+/*       contribute section      */
+
+.contribute-section {
+  display: flex;
+  margin-top: 150px;
+}
+.left-div {
+  width: 40%;
+  margin-left: 130px;
+}
+.left-div h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.right-div img {
+  width: 400px;
+  height: auto;
+  border-radius: 5px;
+  margin-left: -50px;
+  /* margin-left: 60px; */
+}
+.left-div a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 700;
+  background-image: linear-gradient(tomato, orange);
+  border-radius: 5px;
+}
+
+/*         Get updates         */
+
+.get-updates {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.text-box4 {
+  font-size: 20px;
+}
+.text-box4 p {
+  color: #707070;
+}
+.my-form {
+  display: flex;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #fff4d6;
+  padding: 50px;
+  width: 50%;
+  margin-left: 350px;
+}
+#form {
+  padding: 10px;
+  border-radius: 5px;
+  background: #d9d9d9;
+  margin-left: 150px;
+  border: 1px solid #d9d9d9;
+}
+.my-btn {
+  color: white;
+  background: #ff5959;
+  border-radius: 5px;
+  border: 1px solid #ff5959;
+}
+
+/*      Footer section     */
+.footer-section {
+  background-color: #0b0d17;
+  padding: 25px;
+}
+.footer-section h2 {
+  color: tomato;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+}
+.footer-section p {
+  color: white;
+  text-align: center;
+}
